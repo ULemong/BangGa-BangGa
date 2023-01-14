@@ -1,10 +1,8 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
-        // 네이밍은 언제든지 바꿔주십셔~!
         'pink-1': '#D72E96',
         'pink-2': '#E24FA9',
         'purple-1': '#463256',
