@@ -37,5 +37,60 @@
 ## 🗂 디렉토리 구조
 
 ```markdown
-📦client ┣ 📂public ┃ ┣ 📂images ┃ ┃ ┣ 📂backgrounds ┃ ┃ ┣ 📂cafes ┃ ┃ ┣ 📂icon ┃ ┃ ┗ 📂user-profile ┃ ┣ 📂sounds ┣ 📂src ┃ ┣ 📂assets ┃ ┃ ┗ 📂images ┃ ┃ ┃ ┣ 📂backgrounds ┃ ┃ ┃ ┣ 📂icon ┃ ┃ ┃ ┗ 📂user-profile ┃ ┣ 📂components ┃ ┃ ┣ 📂buttons ┃ ┃ ┣ 📂common ┃ ┃ ┣ 📂home ┃ ┃ ┣ 📂login ┃ ┃ ┣ 📂mypage ┃ ┃ ┣ 📂mypageEdit ┃ ┃ ┣ 📂recruit ┃ ┃ ┣ 📂recruit-detail ┃ ┃ ┗ 📂recruit-map ┃ ┣ 📂constants ┃ ┣ 📂mocks ┃ ┣ 📂modals ┃ ┣ 📂pages ┃ ┃ ┣ 📜CafeList.css ┃ ┃ ┣ 📜CafeList.jsx ┃ ┃ ┣ 📜Home.css ┃ ┃ ┣ 📜Home.jsx ┃ ┃ ┣ 📜Login.jsx ┃ ┃ ┣ 📜MatchingList.jsx ┃ ┃ ┣ 📜MyPage.jsx ┃ ┃ ┣ 📜MypageEdit.jsx ┃ ┃ ┣ 📜NotFound.jsx ┃ ┃ ┣ 📜RecruitDetail.jsx ┃ ┃ ┣ 📜RecruitList.jsx ┃ ┃ ┣ 📜RecruitMap.jsx ┃ ┃ ┗ 📜Register.jsx ┃ ┣ 📂recoil ┃ ┃ ┣ 📂login ┃ ┃ ┣ 📂recruit-list ┃ ┃ ┣ 📂recruit-map ┃ ┃ ┗ 📂register ┃ ┣ 📂router ┃ ┗ 📂utils ┃ ┗ 📜index.js ┣ 📜.eslintrc.js ┣ 📜.gitignore ┣ 📜.prettierrc ┣ 📜.yarnrc.yml ┣ 📜package.json ┣ 📜postcss.config.js ┗ 📜tailwind.config.js
+📦client
+ ┣ 📂public
+ ┃ ┣ 📂images
+ ┃ ┃ ┣ 📂backgrounds
+ ┃ ┃ ┣ 📂cafes
+ ┃ ┃ ┣ 📂icon
+ ┃ ┃ ┗ 📂user-profile
+ ┃ ┣ 📂sounds
+ ┣ 📂src
+ ┃ ┣ 📂assets
+ ┃ ┃ ┗ 📂images
+ ┃ ┃ ┃ ┣ 📂backgrounds
+ ┃ ┃ ┃ ┣ 📂icon
+ ┃ ┃ ┃ ┗ 📂user-profile
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📂buttons
+ ┃ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📂home
+ ┃ ┃ ┣ 📂login
+ ┃ ┃ ┣ 📂mypage
+ ┃ ┃ ┣ 📂mypageEdit
+ ┃ ┃ ┣ 📂recruit
+ ┃ ┃ ┣ 📂recruit-detail
+ ┃ ┃ ┗ 📂recruit-map
+ ┃ ┣ 📂constants
+ ┃ ┣ 📂mocks
+ ┃ ┣ 📂modals
+ ┃ ┣ 📂pages
+ ┃ ┃ ┣ 📜CafeList.css
+ ┃ ┃ ┣ 📜CafeList.jsx
+ ┃ ┃ ┣ 📜Home.css
+ ┃ ┃ ┣ 📜Home.jsx
+ ┃ ┃ ┣ 📜Login.jsx
+ ┃ ┃ ┣ 📜MatchingList.jsx
+ ┃ ┃ ┣ 📜MyPage.jsx
+ ┃ ┃ ┣ 📜MypageEdit.jsx
+ ┃ ┃ ┣ 📜NotFound.jsx
+ ┃ ┃ ┣ 📜RecruitDetail.jsx
+ ┃ ┃ ┣ 📜RecruitList.jsx
+ ┃ ┃ ┣ 📜RecruitMap.jsx
+ ┃ ┃ ┗ 📜Register.jsx
+ ┃ ┣ 📂recoil
+ ┃ ┃ ┣ 📂login
+ ┃ ┃ ┣ 📂recruit-list
+ ┃ ┃ ┣ 📂recruit-map
+ ┃ ┃ ┗ 📂register
+ ┃ ┣ 📂router
+ ┃ ┗ 📂utils
+ ┃ ┗ 📜index.js
+ ┣ 📜.eslintrc.js
+ ┣ 📜.gitignore
+ ┣ 📜.prettierrc
+ ┣ 📜.yarnrc.yml
+ ┣ 📜package.json
+ ┣ 📜postcss.config.js
+ ┗ 📜tailwind.config.js
 ```
